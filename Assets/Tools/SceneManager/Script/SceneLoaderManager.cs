@@ -52,10 +52,10 @@ public class SceneLoaderManager : MonoBehaviour
         FadeOut();
         Invoke("RestartOrLoadLevelDirectly", time);
     }
-
+    public static string m_callBackScene;
     public void RestartOrLoadLevelDirectly()
     {
-        VoidRestart.m_callBackScene = SceneManager.GetActiveScene().name;
+        m_callBackScene = SceneManager.GetActiveScene().name;
         m_onImmediatSceneLoading.Invoke();
         if(!string.IsNullOrEmpty(m_nextScene))
             SceneManager.LoadScene(m_nextScene);
