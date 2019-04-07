@@ -37,6 +37,7 @@ public class Factory : MonoBehaviour
     void Spawn()
     {
         GameObject obj = Instantiate( GetRandomPrefab());
+        
         obj.transform.position = GetRandomPosition();
         obj.transform.rotation = m_spawnCenter.rotation;
         obj.transform.localScale = Vector3.one * GetRandomFloat(m_minSize, m_maxSize);

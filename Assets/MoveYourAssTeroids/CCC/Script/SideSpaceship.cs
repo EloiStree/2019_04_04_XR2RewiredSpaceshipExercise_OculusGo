@@ -50,6 +50,8 @@ public class SideSpaceship : MonoBehaviour
     {
         Vector3 newPosition = m_localDirection * m_range;
         m_localToAffect.localPosition = newPosition;
+        //
+        //m_localToAffect.localPosition = Vector3.Lerp(m_localToAffect.position, newPosition, Time.deltaTime);
         m_gun.SetState(m_fireButton);
     }
 
