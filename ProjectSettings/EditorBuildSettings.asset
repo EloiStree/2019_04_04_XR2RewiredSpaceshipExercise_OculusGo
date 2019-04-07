@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/StartAsOculusGo.unity
-    guid: 3aa52496bab0e2641b8984e8ccf61e7c
-  - enabled: 1
     path: Assets/MoveYourAssTeroids/CCC/Scenes/SampleScene.unity
     guid: cb646c4962a7872429bfc7272b1df636
   m_configObjects: {}
