@@ -1956,37 +1956,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1447383939482882695, guid: 734b2fbb086ec1c488758fc44e7d450f,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1447383939482882695, guid: 734b2fbb086ec1c488758fc44e7d450f, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 734b2fbb086ec1c488758fc44e7d450f, type: 3}
---- !u!1 &774526297 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1447383939482882692, guid: 734b2fbb086ec1c488758fc44e7d450f,
-    type: 3}
-  m_PrefabInstance: {fileID: 774526296}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &774526298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774526297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cc907506609a5c4696fc3a5187d9e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerId: Player
-  controllerId: OculusGo
-  m_useEditorDebug: 1
-  m_timeToBePressing: 2
-  m_timePressingEscape: 0
 --- !u!1001 &901449029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2691,6 +2662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_cooldown
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918504502366828063, guid: 45d2cffaca395b44dbaddc1ec0f53350,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45d2cffaca395b44dbaddc1ec0f53350, type: 3}
@@ -3541,6 +3517,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 971893364132770845, guid: 2bbf09a90a5131745ae2c8a00926b8e3,
         type: 3}
+    - target: {fileID: 4918504502366828063, guid: 45d2cffaca395b44dbaddc1ec0f53350,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1036974834071504588, guid: 45d2cffaca395b44dbaddc1ec0f53350, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 45d2cffaca395b44dbaddc1ec0f53350, type: 3}
@@ -6875,6 +6856,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 971893364132770845, guid: 2bbf09a90a5131745ae2c8a00926b8e3,
         type: 3}
+    - target: {fileID: 4918504502366828063, guid: 45d2cffaca395b44dbaddc1ec0f53350,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1036974834071504588, guid: 45d2cffaca395b44dbaddc1ec0f53350, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 45d2cffaca395b44dbaddc1ec0f53350, type: 3}
