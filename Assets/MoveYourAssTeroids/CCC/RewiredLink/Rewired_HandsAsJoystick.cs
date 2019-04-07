@@ -13,8 +13,13 @@ public abstract class Rewired_HandsAsJoystick : MonoBehaviour
 
     void Start()
     {
+
+        if (ReInput.players==null ||  ReInput.players.playerCount <=0)
+            return;
         player = ReInput.players.GetPlayer(playerId);
 
+        if (player == null)
+            return;
         for (int i = 0; i < player.controllers.customControllerCount; i++)
         {
             CustomController controller = player.controllers.CustomControllers[i];

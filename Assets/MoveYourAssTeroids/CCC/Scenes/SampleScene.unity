@@ -1971,6 +1971,102 @@ Transform:
   m_Father: {fileID: 531768872}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &774526296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1447383939482882692, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_Name
+      value: OculusGoCustumInput
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882694, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447383939482882695, guid: 734b2fbb086ec1c488758fc44e7d450f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 734b2fbb086ec1c488758fc44e7d450f, type: 3}
+--- !u!1 &774526297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1447383939482882692, guid: 734b2fbb086ec1c488758fc44e7d450f,
+    type: 3}
+  m_PrefabInstance: {fileID: 774526296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &774526298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774526297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc907506609a5c4696fc3a5187d9e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerId: Player
+  controllerId: OculusGO
+  m_timeToBePressing: 2
+  m_timePressingEscape: 0
 --- !u!1001 &901449029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3652,9 +3748,7 @@ MonoBehaviour:
         _categoryId: 0
         _layoutId: 0
       _startingCustomControllers:
-      - _sourceId: 2
-        _tag: 
-      - _sourceId: 0
+      - _sourceId: 4
         _tag: 
       _assignMouseOnStart: 1
       _assignKeyboardOnStart: 1
@@ -4953,6 +5047,167 @@ MonoBehaviour:
         _modifierKey1: 0
         _modifierKey2: 0
         _modifierKey3: 0
+    - id: 3
+      categoryId: 0
+      layoutId: 0
+      name: 
+      hardwareGuidString: 
+      customControllerUid: 4
+      actionElementMaps:
+      - _actionCategoryId: 0
+        _actionId: 0
+        _elementType: 0
+        _elementIdentifierId: 1
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 4
+        _elementType: 0
+        _elementIdentifierId: 1
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 3
+        _elementType: 0
+        _elementIdentifierId: 2
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 6
+        _elementType: 0
+        _elementIdentifierId: 2
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: -1
+        _elementType: 0
+        _elementIdentifierId: 3
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: -1
+        _elementType: 0
+        _elementIdentifierId: 8
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: -1
+        _elementType: 0
+        _elementIdentifierId: 9
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: -1
+        _elementType: 0
+        _elementIdentifierId: 10
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 10
+        _elementType: 1
+        _elementIdentifierId: 0
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 14
+        _elementType: 1
+        _elementIdentifierId: 4
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 7
+        _elementType: 1
+        _elementIdentifierId: 5
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 8
+        _elementType: 1
+        _elementIdentifierId: 5
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 17
+        _elementType: 1
+        _elementIdentifierId: 6
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
+      - _actionCategoryId: 0
+        _actionId: 9
+        _elementType: 1
+        _elementIdentifierId: 7
+        _axisRange: 0
+        _invert: 0
+        _axisContribution: 0
+        _keyboardKeyCode: 0
+        _modifierKey1: 0
+        _modifierKey2: 0
+        _modifierKey3: 0
     customControllers:
     - _name: HandsAsJoystick
       _descriptiveName: Hands As Joystick
@@ -5450,6 +5705,167 @@ MonoBehaviour:
       - elementIdentifierId: 3
         name: IsMoving
       _elementIdentifierIdCounter: 4
+    - _name: OculusGo
+      _descriptiveName: OculusGo
+      _id: 4
+      _elementIdentifiers:
+      - _id: 0
+        _name: LongEscape
+        _positiveName: 
+        _negativeName: 
+        _elementType: 1
+        _compoundElementType: 0
+      - _id: 1
+        _name: Horizontal
+        _positiveName: 
+        _negativeName: 
+        _elementType: 0
+        _compoundElementType: 0
+      - _id: 2
+        _name: Vertical
+        _positiveName: 
+        _negativeName: 
+        _elementType: 0
+        _compoundElementType: 0
+      - _id: 3
+        _name: Trigger
+        _positiveName: 
+        _negativeName: 
+        _elementType: 0
+        _compoundElementType: 0
+      - _id: 4
+        _name: Escape
+        _positiveName: 
+        _negativeName: 
+        _elementType: 1
+        _compoundElementType: 0
+      - _id: 5
+        _name: Triggering
+        _positiveName: 
+        _negativeName: 
+        _elementType: 1
+        _compoundElementType: 0
+      - _id: 6
+        _name: PadClicking
+        _positiveName: 
+        _negativeName: 
+        _elementType: 1
+        _compoundElementType: 0
+      - _id: 7
+        _name: PadTouching
+        _positiveName: 
+        _negativeName: 
+        _elementType: 1
+        _compoundElementType: 0
+      - _id: 8
+        _name: Pitch
+        _positiveName: 
+        _negativeName: 
+        _elementType: 0
+        _compoundElementType: 0
+      - _id: 9
+        _name: Yaw
+        _positiveName: 
+        _negativeName: 
+        _elementType: 0
+        _compoundElementType: 0
+      - _id: 10
+        _name: Roll
+        _positiveName: 
+        _negativeName: 
+        _elementType: 0
+        _compoundElementType: 0
+      _axes:
+      - elementIdentifierId: 1
+        name: Horizontal
+        range: 0
+        invert: 0
+        deadZone: 0
+        zero: 0
+        min: -1
+        max: 1
+        doNotCalibrateRange: 0
+        axisInfo:
+          _dataFormat: 0
+          _excludeFromPolling: 0
+          _specialAxisType: 0
+      - elementIdentifierId: 2
+        name: Vertical
+        range: 0
+        invert: 0
+        deadZone: 0
+        zero: 0
+        min: -1
+        max: 1
+        doNotCalibrateRange: 0
+        axisInfo:
+          _dataFormat: 0
+          _excludeFromPolling: 0
+          _specialAxisType: 0
+      - elementIdentifierId: 3
+        name: Trigger
+        range: 0
+        invert: 0
+        deadZone: 0
+        zero: 0
+        min: -1
+        max: 1
+        doNotCalibrateRange: 0
+        axisInfo:
+          _dataFormat: 0
+          _excludeFromPolling: 0
+          _specialAxisType: 0
+      - elementIdentifierId: 8
+        name: Pitch
+        range: 0
+        invert: 0
+        deadZone: 0
+        zero: 0
+        min: -1
+        max: 1
+        doNotCalibrateRange: 0
+        axisInfo:
+          _dataFormat: 0
+          _excludeFromPolling: 0
+          _specialAxisType: 0
+      - elementIdentifierId: 9
+        name: Yaw
+        range: 0
+        invert: 0
+        deadZone: 0
+        zero: 0
+        min: -1
+        max: 1
+        doNotCalibrateRange: 0
+        axisInfo:
+          _dataFormat: 0
+          _excludeFromPolling: 0
+          _specialAxisType: 0
+      - elementIdentifierId: 10
+        name: Roll
+        range: 0
+        invert: 0
+        deadZone: 0
+        zero: 0
+        min: -1
+        max: 1
+        doNotCalibrateRange: 0
+        axisInfo:
+          _dataFormat: 0
+          _excludeFromPolling: 0
+          _specialAxisType: 0
+      _buttons:
+      - elementIdentifierId: 5
+        name: Triggering
+      - elementIdentifierId: 7
+        name: PadTouching
+      - elementIdentifierId: 6
+        name: PadClicking
+      - elementIdentifierId: 4
+        name: Escape
+      - elementIdentifierId: 0
+        name: LongEscape
+      _elementIdentifierIdCounter: 11
     playerIdCounter: 2
     actionIdCounter: 18
     actionCategoryIdCounter: 1
@@ -5462,8 +5878,8 @@ MonoBehaviour:
     joystickMapIdCounter: 2
     keyboardMapIdCounter: 1
     mouseMapIdCounter: 1
-    customControllerMapIdCounter: 3
-    customControllerIdCounter: 4
+    customControllerMapIdCounter: 4
+    customControllerIdCounter: 5
   _controllerDataFiles: {fileID: 11400000, guid: d21d2b20df8369642b76aafbb2576ba7,
     type: 2}
 --- !u!4 &1865269784
